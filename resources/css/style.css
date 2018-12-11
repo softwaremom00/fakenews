@@ -123,6 +123,7 @@ html {
   height: 300px;
   width: 300px;
   display: flex;
+  text-align: center;
   /*justify-content:center;
   align-items: center;*/
 }
@@ -134,6 +135,7 @@ html {
   height: 300px;
   width: 300px;
   display: flex;
+  text-align: center;
   /*justify-content: center;
   align-items: center;*/
 }
@@ -169,6 +171,7 @@ html {
   height: 300px;
   width: 220px;
   color: white;
+  text-align: center;
 }
 #column3{
     height: 100%;
@@ -218,4 +221,42 @@ html {
   padding-bottom: 10px;
   border-bottom: 1px solid black;
   flex-basis: 240px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  padding: 40px 40px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+.bottomtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_text {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+}
+
+footer a{
+  color: black;
+  font-size: 16px;
+  padding-right: 15px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
