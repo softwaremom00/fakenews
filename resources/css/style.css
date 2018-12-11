@@ -110,7 +110,7 @@ html {
 }
 #column1_earthspin {
   display: flex;
-  /*border: 1px solid black; */
+  border: 1px solid black;
   margin-right:5px;
   background-image: url("../images/girltree.png");
   height: 300px;
@@ -122,7 +122,7 @@ html {
 
 #column1_camera {
   display: flex;
-/*  border: 1px solid black; */
+  border: 1px solid red;
   background-image: url("../images/cameraman.png");
   height: 300px;
   width: 300px;
