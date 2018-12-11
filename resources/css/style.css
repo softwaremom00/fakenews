@@ -116,8 +116,8 @@ html {
   height: 300px;
   width: 300px;
   display: flex;
-  justify-content:center;
-  align-items: center;
+  /*justify-content:center;
+  align-items: center;*/
 }
 
 #column1_camera {
@@ -127,8 +127,8 @@ html {
   height: 300px;
   width: 300px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;
+  align-items: center;*/
 }
 
 #column1_item5 h2{
