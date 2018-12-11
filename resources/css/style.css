@@ -230,6 +230,7 @@ html {
   padding: 40px 40px;
   font-family: Verdana;
   font-size: 12px;
+  border: 1px solid black;
 }
 .bottomtitle{
     display: flex;
