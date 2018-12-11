@@ -222,7 +222,8 @@ html {
   border-bottom: 1px solid black;
   flex-basis: 240px;
 }
-
+/* footer css */
+/* main footer container */
 .bottomfooter {
   display: flex;
   flex-direction: column;
@@ -231,11 +232,16 @@ html {
   font-family: Verdana;
   font-size: 12px;
   border: 1px solid black;
+  align-items: center;
+  justify-content: center;
 }
+/* top item for footer */
 .bottomtitle{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: baseline;
+    /*border: 1px solid black;*/
 }
 
 .footer_text {
@@ -244,16 +250,32 @@ html {
   font-weight: bold;
   color: white;
   text-align: center;
+
+}
+.bottomNav
+{
+    display: flex;
+  
+    justify-content: flex-end;
+    align-items: baseline;
 }
 
-.bottomfooter li {
+.bottomNav ul{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.bottomNav li {
   display: inline;
+  padding-right: 15px;
+  margin-top: 20px;
 }
 
-.bottomfooter a{
+.bottomNav a{
   color: black;
-  font-size: 16px;
-  padding-right: 15px;
+  font-size: 12px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .copyright {
