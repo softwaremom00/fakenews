@@ -41,6 +41,7 @@ html {
 #navbar a{
   color: black;
   font-size: 14px;
+  letter-spacing: 2px;
   padding-right: 15px;
 }
 /**** end of heading ****/
@@ -66,9 +67,10 @@ html {
 #column1_heading {
   color:white;
   background-image: url("../images/winebackground.png");
-
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
   display: flex;
   font-family: Georgia;
   font-weight: bold;
@@ -76,8 +78,11 @@ html {
   text-align: left;
   margin: 20px 5px;
   padding-left: 15px;
-
+  justify-content: space-around;
+  align-items: center;
 }
+
+
 
 #column1_item1 {
   display: flex;
@@ -86,32 +91,44 @@ html {
 
 #column1_split{
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
 }
-#column1_item2 {
+#column1_orca {
   display: flex;
   border: 1px solid black;
   flex-direction: column;
+  height: 300px;
+  margin: 5px 5px;
 }
-#column1_item3 {
+#column1_breakfast {
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
+  height: 300px;
+}
+#column1_earthspin {
+  display: flex;
+  /*border: 1px solid black; */
+  margin-right:5px;
   background-image: url("../images/girltree.png");
   height: 300px;
+  width: 300px;
   display: flex;
+  justify-content:center;
+  align-items: center;
 }
-#column1_item4 {
+
+#column1_camera {
   display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-}
-#column1_item5 {
-  display: flex;
-  border: 1px solid black;
+/*  border: 1px solid black; */
   background-image: url("../images/cameraman.png");
   height: 300px;
+  width: 300px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #column1_item5 h2{
