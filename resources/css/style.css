@@ -27,7 +27,10 @@ html {
 .header_container {
   display: flex;
   flex-direction: row;
+  width: 1200px;   /* ISSUE I set this to match the container width for the content container */
   justify-content: flex-start;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 .header_container p{
   margin-left: 20px;
@@ -54,12 +57,12 @@ html {
 
 .container{
   display: flex;
-/*  width: 100%;*/
-/*  height:100%; */
+   width: 1200px; /** ISSUW should this be 1200 or 100% */
+   height:100%;
 
-  border: 1px solid black;
+
   align-items: stretch; /** ISSUE maybe keep this or not **/
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #column1{
@@ -78,42 +81,50 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 
-  display: flex;
+
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   text-align: left;
   margin: 20px 5px;
   padding-left: 15px;
-  justify-content: space-around;
+  display: flex;  /*ISSUE: do not think this needs to be a flex container*/
+  justify-content: center;
   align-items: center;
 }
 
 
 
-#column1_item1 {
-  display: flex;
-  /*border: 1px solid black;*/
+#column1_monumentvalley {
+   /*display: flex;  ISSUE: do not think this needs to be a flex container*/
+  margin-left: 10px;
+
 }
 
 #column1_split{
   display: flex;
   flex-direction:row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+
 }
 #column1_orca {
   display: flex;
   /* border: 1px solid black;*/
   flex-direction: column;
+
   height: 300px;
-  margin: 5px 5px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-right: 30px;
 }
 #column1_breakfast {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   /*border: 1px solid black;*/
   height: 300px;
+  margin-bottom: 30px;
 }
 #column1_earthspin {
   display: flex;
@@ -228,12 +239,14 @@ html {
   display: flex;
   flex-direction: column;
   background-color: MediumAquamarine;
-  padding: 40px 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   font-family: Verdana;
   font-size: 12px;
-  border: 1px solid black;
+  width: 1200px;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 /* top item for footer */
 .bottomtitle{
@@ -255,7 +268,7 @@ html {
 .bottomNav
 {
     display: flex;
-  
+
     justify-content: flex-end;
     align-items: baseline;
 }
